@@ -1,0 +1,96 @@
+/* Navigation Bar */
+
+
+.nav-link:hover {
+    background-color: red;
+
+}
+
+.navbar-brand img{
+    height: 75px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+    width: 100%;
+    padding: 15px 15%;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.footer-col1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-col1 h3 {
+    margin-bottom: 2rem;
+}
+
+
+.footer-col1 a {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.footer-col1 a:hover {
+    color: red;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-form h3 {
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+#footer-email-button {
+    color: white;
+    width: 250px;
+    height: 45px;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-col2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-col2 h3 {
+    margin-bottom: 2rem;
+}
+
+.footer-col2 a {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+.footer-col2 a:hover {
+    color: red;
+}

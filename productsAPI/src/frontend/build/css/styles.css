@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* index */
+
+h1 {
+    text-align: center;
+    color: black;
+    margin: 10px 0px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: red;
+    margin: 10px 0px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.card {
+    margin: auto;
+    width: 50%;
+    width: 40rem;
+}
+
+.card-title {
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.card-body {
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.5em;
+
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    border: red;
+    
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+    border: black;
+  
+}
+
+/* Navigation Bar */
+
+
+.nav-link:hover {
+    background-color: red;
+
+}
+
+.navbar-brand img{
+    height: 75px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+    width: 100%;
+    padding: 15px 15%;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+}
+
+.footer-col1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-col1 h3 {
+    margin-bottom: 2rem;
+}
+
+
+.footer-col1 a {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.footer-col1 a:hover {
+    color: red;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-form h3 {
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+#footer-email-button {
+    color: white;
+    width: 250px;
+    height: 45px;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-col2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-col2 h3 {
+    margin-bottom: 2rem;
+}
+
+.footer-col2 a {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+.footer-col2 a:hover {
+    color: red;
+}
+
+
+
+
+/* Products Page */
+
+.products {
+    background-color: gainsboro;
+}
+
+#carousel1 {
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
+}
+
+#carousel2 {
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
+}
+
+#carousel3 {
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
+}
+
+.carousel-caption {
+    text-shadow: 2px 2px 0 black; 
+}
+
+
+#button {
+    font-family: 'Prompt', sans-serif;
+}
+
+/* product-form page*/
+.form-label {
+    font-size: 20px;
+}
+
+#prodFormFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
